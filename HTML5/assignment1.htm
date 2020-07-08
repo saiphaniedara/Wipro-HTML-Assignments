@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 2</title>
+</head>
+<body>
+	<div class="form1">
+	<h2 align="center">Visitors Information</h2>
+	<hr>
+	<form>
+	<table align="center" border="2" cellpadding="3" cellspacing="0">
+		<tr>
+			<td>
+				<label for="email">Email</label>
+			</td>
+			<td>
+				<input type="email" name="email" id="email" placeholder="someone@example.com" required multiple>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>User's Interest Web for</label>
+			</td>
+			<td>
+				<input type="checkbox" name="userinterest" id="1">
+				<label for="1">Research</label>
+				<input type="checkbox" name="userinterest" id="2">
+				<label for="2">Purchase</label>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label for="oc">Occupation</label>
+			</td>
+			<td>
+				<select id="oc">
+					<option value="none" selected>Select one</option>
+					<option value="Teacher">Teacher</option>
+					<option value="Student">Student</option>
+					<option value="Pharmacist">Pharmacist</option>
+					<option value="Doctor">Doctor</option>
+					<option value="Engineer">Engineer</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>Want us to send you junk emails?</label>
+			</td>
+			<td>
+				<input type="radio" name="junk" id="yes" value="absolutely">
+				<label for="yes">Absolutely</label>
+				<input type="radio" name="junk" id="no" value="no way man">
+				<label for="no">no way man</label>
+			</td>
+		</tr>
+		<tr align="center">
+			<td><input type="Submit" name="submit" value="Submit"></td>
+			<td><input type="reset" name="reset"></td>
+		</tr>
+	</table>
+</form>
+</div>
+<div class="form2">
+	<h2 align="center">Online Registration</h2>
+	<form>
+		<table align="center" cellpadding="3">
+			<tr>
+				<td>
+					<label for="uname">Username</label>
+				</td>
+				<td>
+					<input type="text" name="uname" id="uname" placeholder="Enter your Username" required>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="pwd">Password</label>
+				</td>
+				<td>
+					<input type="password" name="pwd" id="pwd" placeholder="Enter your Password" required>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="confirmpwd">Confirm Password</label>
+				</td>
+				<td>
+					<input type="password" name="confirmpwd" id="confirmpwd" placeholder="Enter your password to confirm" required>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="name">Name</label>
+				</td>
+				<td>
+					<input type="text" name="name" id="name" placeholder="Enter your Name" required>
+				</td>
+			</tr>
+			<tr>
+				<td><label>Gender</label></td>
+				<td>
+					<input type="radio" name="gender" id="male">
+					<label for="male">Male</label>
+					<input type="radio" name="gender" id="female">
+					<label for="female">Female</label>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="add">Address</label>
+				</td>
+				<td>
+					<textarea id="add" name="add" placeholder="Enter your Address"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="prof">Profession</label>
+				</td>
+				<td>
+					<select id="prof">
+						<option value="Teacher">Teacher</option>
+						<option value="Student">Student
+						</option>
+						<option value="Doctor">Doctor</option>
+						<option value="Engineer" selected>Engineer</option>
+					</select>
+				</td>
+			</tr>
+		</table>
+		<br>
+		<center><input type="submit" name="submit" value="Submit"></center>
+	</form>
+</div>
+</body>
+</html>
